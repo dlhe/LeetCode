@@ -1,5 +1,5 @@
 CC:=g++
-FLAGS:=-std=c++11
+FLAGS:=-std=c++0x -g
 
 %:src/%.o test/Test%.o
 	$(CC) $(FLAGS) src/$@.o test/Test$@.o -o bin/$@.out
