@@ -11,5 +11,5 @@ FLAGS:=-std=c++0x -g
 .PHONY: clean
 
 clean:
-	-rm bin/*.out
+	-rm bin/*.out src/*.o test/*.o
 
